@@ -1,6 +1,5 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import DashboardObraGPT from './panel/DashboardObraGPT.jsx'
-
+import App from './panel/App.jsx'
 const root = createRoot(document.getElementById('root'))
-root.render(<DashboardObraGPT />)
+root.render(<App />)
